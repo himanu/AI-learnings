@@ -13,4 +13,18 @@ Using YOLO increase the efficiency of OCR. Because using YOLO we can detect bloc
 ## This folder
 In this folder, I have written code to use YOLO + OCR to detect author name and book name. I have followed https://medium.com/@tapanbabbar/enhance-ocr-with-a-custom-yolov10-ollama-llama-3-1-d13747164c96 to implement it.
 
+## Steps
+1. Train YOLO Model for a specific use case
+2. Use Model to detect target blocks
+3. Use OCR model to extract text from target blocks
+4. Use LLM to understand extracted text better and output result in a particular format.
+
+
+## Learning
+1. Training a model takes lot of hours
+2. Trained model can be deployed.
+3. To use ollama, we need to pull model in the local machine. `ollama pull llama3` was run to use llama3
+4. Training data matters a lot for good results.
+
+
 
